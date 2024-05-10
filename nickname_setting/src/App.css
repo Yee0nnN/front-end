@@ -1,0 +1,36 @@
+.App {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.App > text {
+  font-size: 12px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background-color: #A2B59F;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+

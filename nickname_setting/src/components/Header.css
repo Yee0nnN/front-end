@@ -1,0 +1,7 @@
+.Header > h1 {
+  color: black;
+  font-weight: bold;
+  font-family: "Sebang";
+  text-align: center;
+  text-shadow: 3px 3px 5px #cdcccc;
+}
